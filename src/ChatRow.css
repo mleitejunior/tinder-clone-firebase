@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.chatRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70px;
+    border-bottom: 1px solid #fafafa;
+}
+
+.chatRow__details {
+    flex:1;
+}
+
+.chatRow__details > p {
+    color: gray;
+}
+
+.chatRow__timestamp {
+    color: lightgray;
+}
+
+.chatRow__image {
+    margin-right: 20px;
+}
